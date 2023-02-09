@@ -4,6 +4,9 @@
 - 📫 ru323091@gmail.com
    03148151505 what's app 
    03096779850 what's app 
+   https://www.mailpoet.com/blog/email-testing-tools/
+   https://www.awesomescreenshot.com/video/14668086
+   https://mrrio.github.io/jsPDF/
 
 <!---
 rizwanullah313/rizwanullah313 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
