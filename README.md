@@ -14,3 +14,5 @@ You can click the Preview link to take a look at your changes.
 --->
 
 https://mzuer.github.io/blog/2018/01/02/python-pandas-basics-exercises
+
+https://www.machinelearningplus.com/python/101-numpy-exercises-python/
