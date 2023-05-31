@@ -1,0 +1,341 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  screenshotPath: ../images/template-previews/pwr-img_template-preview_product.jpg
+  label: POWER THEME Product
+-->
+{% extends "./layouts/base.html" %}
+{% block body %}
+<main class="body-container-wrapper">
+    <div class="body-container">
+        {% dnd_area 'dnd_area' class='', label='Main Content' %}
+            {# Section Hero #}
+            {% dnd_section full_width=true, padding={'top': 0,'bottom': 0,'left': 0,'right': 0} %}
+                {% dnd_module module "hero" 
+                    full_width=true,
+                    width=12,
+                    path='../modules/sec-hero', 
+                    label='Hero',
+                    title_sel_heading='h1', 
+                    title='OUR PRODUCT IS POWERFUL', 
+                    layout='{"full_width":false,"isSmall":true,"title_extra_large":false}', 
+                    style='{"background":"img_vid","background_gradient_color_2":{"color":theme.colors.power.dark_scheme.background.background_color.color,"opacity":100},"background_gradient_direction":"diag_bl_tr","background_image":{"alt":"bg-produkt","height":788,"src":get_asset_url(\'../images/bgs/pwr-img_bg_mockup-product.jpg\'),"width":1484},"background_image_overlay":"color","background_image_position":"parallax","background_position":"parallax","overlay_color":{"color":theme.colors.brand_colors.base_color_dark.color,"opacity":40},"overlay_gradient_color_1":{"color":theme.colors.power.light_scheme.background.background_color.color,"opacity":40},"overlay_gradient_color_2":{"color":theme.colors.power.dark_scheme.background.background_color.color,"opacity":100},"overlay_gradient_opacity":80,"scheme":"dark","title_extra_large":false}'		  
+                    %}
+                    {% module_attribute "description" %}
+                    Put your wonderful product in the spotlight and attract a broad audience to help your business grow.
+                    {% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_section %}
+            {# End Section Hero #}
+
+            {# Section Steps #}
+            {% dnd_section full_width=true, padding={'top': 0,'bottom': 0,'left': 0,'right': 0} %}
+                {% dnd_module module "steps" 
+                    full_width=true,
+                    width=12,
+                    path='../modules/sec-steps', 
+                    label='Steps',
+                    intro_to_title='', 
+                    title='', 
+                    description='', 
+                    step='[
+                        {"description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam sit amet, consetetur elitr.","icon_field":{},"img":{"alt":"product-icon-01","height":64,"src":get_asset_url(\'../images/icons/pwr-img_icon_product-01.svg\'),"width":64},"title":"FEATURE ONE","animation":{"animation_type":"default","delay":50}},
+                        {"description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam sit amet, consetetur elitr.","img":{"alt":"product-icon-03","height":64,"src":get_asset_url(\'../images/icons/pwr-img_icon_product-03.svg\'),"width":64},"title":"SECOND FEATURE","animation":{"animation_type":"default","delay":200}},
+                        {"description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam sit amet, consetetur elitr.","img":{"alt":"product-icon-02","height":64,"src":get_asset_url(\'../images/icons/pwr-img_icon_product-02.svg\'),"width":64},"title":"ANOTHER FEATURE","animation":{"animation_type":"default","delay":350}},
+                        {"description":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam sit amet, consetetur elitr.","img":{"alt":"product-icon-04","height":64,"src":get_asset_url(\'../images/icons/pwr-img_icon_product-04.svg\'),"width":64},"title":"FOURTH FEATURE","animation":{"animation_type":"default","delay":500}}
+                        ]', 
+                    layout='{"centered":false,"section_variant":"img"}', 
+                    style='{"background":"color"}'
+                    %}
+                {% end_dnd_module %}
+            {% end_dnd_section %}
+            {# End Section Steps #}
+
+            {# Section Mockup #}
+            {% dnd_section full_width=true, padding={'top': 0,'bottom': 0,'left': 0,'right': 0} %}
+                {% dnd_module module "device-mockup" 
+                    full_width=true,
+                    width=12,
+                    path='../modules/sec-device-mockup', 
+                    label='Mockup',
+                    intro_to_title='OUR NEW ADDITION', 
+                    title='PRODUCT FEATURE ONE',
+                    title_sel_heading='h2', 
+                    mockup='{"alt":"mockup-laptop-2-compressed","height":790,"src":get_asset_url(\'../images/mockups/pwr-img_mockup_laptop-left.png\'),"width":1177}', 
+                    ctas='["90ddfe68-2e6d-482f-b2a3-56be2088a90e"]', 
+                    layout='{"content_width":45,"full_width":true,"max_mockup_width":760,"mockup_width":100,"padding_bottom":"pwr--sec-padding-b-md","padding_top":"pwr--sec-padding-t-md","section_variant":"mockup_left"}'
+                    %}
+                    {% module_attribute "description" %}
+                    <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet.</span>
+                    {% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_section %}
+            {# End Section Mockup #}
+
+            {# Section Mockup #}
+            {% dnd_section full_width=true, padding={'top': 0,'bottom': 0,'left': 0,'right': 0} %}
+                {% dnd_module module "device-mockup" 
+                    full_width=true,
+                    width=12,
+                    path='../modules/sec-device-mockup', 
+                    label='Mockup',
+                    intro_to_title='', 
+                    title='PRODUCT FEATURE TWO', 
+                    title_sel_heading='h2',
+                    mockup='{"alt":"mockup-phone-tablet-compressed","height":817,"src":get_asset_url(\'../images/mockups/pwr-img_mockup_laptop-phone-right.png\'),"width":1048}', 
+                    ctas='["90ddfe68-2e6d-482f-b2a3-56be2088a90e"]', 
+                    layout='{"content_width":45,"full_width":true,"max_mockup_width":680,"mockup_width":100,"padding_bottom":"pwr--sec-padding-b-md","padding_top":"pwr--sec-padding-t-md","section_variant":"mockup_right"}', 
+                    style='{"background":"color"}'
+                    %}
+                    {% module_attribute "description" %}
+                    <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet.</span>
+                    {% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_section %}
+            {# End Section Mockup #}
+
+            {# Section Testimonial #}
+            {% dnd_section full_width=true, padding={'top': 0,'bottom': 0,'left': 0,'right': 0} %}
+                {% dnd_module module "testimonial" 
+                    full_width=true,
+                    width=12,
+                    path='../modules/sec-testimonial', 
+                    label='Testimonial',
+                    intro_to_title='', 
+                    title='', 
+                    description='', 
+                    testimonial='[{"job_title":"Natural Historian","name_":"David Attenborough","quote":"“<span>It seems to me that the natural world is the greatest source of excitement; the greatest source of visual beauty; the greatest source of intellectual interest. It is the greatest source of so much in life that makes life worth living.</span>”"}]', 
+                    slider='{"nav_arrows":false}', 
+                    layout='{"section_variant":"one_by_one_style2"}', 
+                    style='{"background":"img_vid","background_image":{"alt":"bg-office-meeting-table-unsplash","height":1080,"src":get_asset_url(\'../images/bgs/pwr-img_bg_office-meeting-table.jpg\'),"width":1920},"background_position":"parallax","overlay_color":{"color":theme.colors.brand_colors.primary_color.color,"opacity":85},"scheme":"dark"}',
+                    animation='{"section":{"animation_type":"default","delay":50}}'
+                    %}
+                {% end_dnd_module %}
+            {% end_dnd_section %}
+            {# End Section Testimonial #}
+
+            {# Section Text #}
+            {% dnd_section full_width=true, padding={'top': 0,'bottom': 0,'left': 0,'right': 0} %}
+                {% dnd_module module "text" 
+                    full_width=true,
+                    width=12,
+                    path='../modules/sec-text', 
+                    label='Text',
+                    intro_to_title='', 
+                    title='', 
+                    layout='{"section_variant":"2col","padding_bottom":"pwr--sec-padding-b-md","padding_top":"pwr--sec-padding-t-md"}'
+                    %}
+                    {% module_attribute "left" %}
+                    <ul><li>Cross-browser optimized - FF, Safari, Chrome, IE11, Edge, Opera</li><li>Fully Responsive design - perfect on any device</li><li>Multi-language ready - everything in our modules is translatable</li><li>Retina image support for high-density pixel displays</li></ul>
+                    {% end_module_attribute %}
+                    {% module_attribute "right" %}
+                    <ul><li>Flexible - Customize font and color scheme to fit your brand</li><li>Great documentation - good for new or legacy users</li><li>Professional support - we love what we do and who we do it for</li><li>Many header- / footer-layouts and loads of easy-to-use modules</li></ul>
+                    {% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_section %}
+            {# End Section Text #}
+            
+            {# Section DnD #}
+            {% dnd_section background_color='#F4F6FA' %}
+                {% dnd_column padding={'left':0,'right':0} %}
+                {% dnd_row margin={'bottom':80} %}
+                    {% dnd_module path='@hubspot/rich_text' %}
+                    {% module_attribute 'html' %}
+                        <div style="text-align: center;">
+                        <h2>PRICING OF OUR PRODUCTS</h2>
+                        <p style="font-size:18px;">A compact overview of the offered pricing options of your product. Highlight a specific column or recommend it with a tag.</p>
+                        </div>
+                    {% end_module_attribute %}
+                    {% end_dnd_module %}
+                {% end_dnd_row %}
+                {% dnd_row %}
+                    {% dnd_column offset=0, width=4, margin={'bottom': 20}, padding={'left':0,'right':0} %}
+                        {% dnd_row %}
+                            {# Submodule Pricing Tables #}
+                            {% dnd_module
+                                path='../modules/sub-pricing-tables', 
+                                label='Pricing Table',
+                                layout='{"section_variant":"reduced"}', 
+                                price_table='{"title":"BASIC","description":"A short description of this pricing option. What is included and what can you do with this option. ","price":"free","cta":"fe13cfd2-f440-436b-858d-1cfae9387c7e"}'
+                                style='{"box_color":{"color":theme.colors.power.light_scheme.background.background_color.color,"opacity":100}}',
+                                animation='{"animation_type":"default","delay":50}'
+                                %}
+                            {% end_dnd_module %}
+                        {% end_dnd_row %}
+
+                    {% end_dnd_column %}
+
+                    {% dnd_column offset=4, width=4, margin={'bottom': 20}, padding={'left':0,'right':0} %}
+                        {% dnd_row %}
+                            {# Submodule Pricing Tables #}
+                            {% dnd_module
+                                path='../modules/sub-pricing-tables', 
+                                label='Pricing Table',
+                                layout='{"section_variant":"reduced"}', 
+                                price_table='{"title":"PROFESSIONAL","description":"A short description of this pricing option. What is included and what can you do with this option. ","price":"$149/mo","cta":"fe13cfd2-f440-436b-858d-1cfae9387c7e"}'
+                                style='{"box_color":{"color":theme.colors.power.light_scheme.background.background_color.color,"opacity":100},"highlighted":true,"cta_style":"pwr-cta--regular-solid-primary-background"}',
+                                animation='{"animation_type":"default","delay":200}'
+                                %}
+                            {% end_dnd_module %}
+                        {% end_dnd_row %}
+
+                    {% end_dnd_column %}
+                        
+                    {% dnd_column offset=8, width=4, margin={'bottom': 20}, padding={'left':0,'right':0} %}
+                        {% dnd_row %}
+                            {# Submodule Pricing Tables #}
+                            {% dnd_module
+                                path='../modules/sub-pricing-tables', 
+                                label='Pricing Table',
+                                layout='{"section_variant":"reduced"}', 
+                                price_table='{"title":"ULTIMATE","description":"A short description of this pricing option. What is included and what can you do with this option. ","price":"$299/mo","cta":"fe13cfd2-f440-436b-858d-1cfae9387c7e"}'
+                                style='{"box_color":{"color":theme.colors.power.light_scheme.background.background_color.color,"opacity":100},"recommended":true}',
+                                animation='{"animation_type":"default","delay":350}'
+                                %}
+                            {% end_dnd_module %}
+                        {% end_dnd_row %}
+
+                    {% end_dnd_column %}
+                {% end_dnd_row %}
+                {% end_dnd_column %}
+            {% end_dnd_section %}
+            {# End Section DnD #}
+
+            {# Section DnD #}
+            {% dnd_section background_color='#FFFFFF' %}
+                {% dnd_column padding={'left':0,'right':0} %}
+                {% dnd_row margin={'bottom':80} %}
+                    {% dnd_module path='@hubspot/rich_text' %}
+                    {% module_attribute 'html' %}
+                        <div style="text-align: center;">
+                        <h2>PRICING OF OUR PRODUCTS</h2>
+                        <p style="font-size:18px;">A compact overview of the offered pricing options of your product. Highlight a specific column or recommend it with a tag.</p>
+                        </div>
+                    {% end_module_attribute %}
+                    {% end_dnd_module %}
+                {% end_dnd_row %}
+                {% dnd_row %}
+                    {% dnd_column offset=0, width=4, margin={'bottom': 20}, padding={'left':0,'right':0} %}
+                        {% dnd_row %}
+                            {# Submodule Pricing Tables #}
+                            {% dnd_module
+                                path='../modules/sub-pricing-tables', 
+                                label='Pricing Table',
+                                layout='{"section_variant":"full"}', 
+                                style='{"box_color":{"color":theme.colors.power.light_scheme.background.background_accent_color.color,"opacity":100}}',
+                                animation='{"animation_type":"default","delay":50}'
+                                %}
+                                {% module_attribute "price_table" is_json=True %}
+                                    {
+                                    "title":"BASIC",
+                                    "description":"Additional description explaining the product you will get with this pricing option. Do not be shy, click buy.",
+                                    "price":"free",
+                                    "features":[
+                                        {"name_":"<strong>10GB</strong> Volume","deactivated":false},
+                                        {"name_":"<strong>24/7</strong> Customer Support","deactivated":false},
+                                        {"name_":"<strong>1</strong> User","deactivated":true},
+                                        {"name_":"<strong>5</strong> Month Support","deactivated":true},
+                                        {"name_":"<strong>Premium Features</strong>","deactivated":true}
+                                    ],
+                                    "cta":"fe13cfd2-f440-436b-858d-1cfae9387c7e"
+                                    }
+                                {% end_module_attribute %}
+                            {% end_dnd_module %}
+                        {% end_dnd_row %}
+
+                    {% end_dnd_column %}
+
+                    {% dnd_column offset=4, width=4, margin={'bottom': 20}, padding={'left':0,'right':0} %}
+                        {% dnd_row %}
+                            {# Submodule Pricing Tables #}
+                            {% dnd_module
+                                path='../modules/sub-pricing-tables', 
+                                label='Pricing Table',
+                                layout='{"section_variant":"full"}', 
+                                style='{"box_color":{"color":theme.colors.power.light_scheme.background.background_color.color,"opacity":100},"highlighted":true,"cta_style":"pwr-cta--regular-solid-primary-background"}',
+                                animation='{"animation_type":"default","delay":200}'
+                                %}
+                                {% module_attribute "price_table" is_json=True %}
+                                    {
+                                    "title":"PROFESSIONAL",
+                                    "description":"Additional description explaining the product you will get with this pricing option. Do not be shy, click buy.",
+                                    "price":"$149/mo",
+                                    "features":[
+                                        {"name_":"<strong>10GB</strong> Volume","deactivated":false},
+                                        {"name_":"<strong>24/7</strong> Customer Support","deactivated":false},
+                                        {"name_":"<strong>1</strong> User","deactivated":false},
+                                        {"name_":"<strong>12</strong> Month Support","deactivated":true},
+                                        {"name_":"<strong>Premium Features</strong>","deactivated":true}
+                                    ],
+                                    "cta":"fe13cfd2-f440-436b-858d-1cfae9387c7e"
+                                    }
+                                {% end_module_attribute %}
+                            {% end_dnd_module %}
+                        {% end_dnd_row %}
+
+                    {% end_dnd_column %}
+                        
+                    {% dnd_column offset=8, width=4, margin={'bottom': 20}, padding={'left':0,'right':0} %}
+                        {% dnd_row %}
+                            {# Submodule Pricing Tables #}
+                            {% dnd_module
+                                path='../modules/sub-pricing-tables', 
+                                label='Pricing Table',
+                                layout='{"section_variant":"full"}', 
+                                style='{"box_color":{"color":theme.colors.power.light_scheme.background.background_accent_color.color,"opacity":100},"recommended":true}',
+                                animation='{"animation_type":"default","delay":350}'
+                                %}
+                                {% module_attribute "price_table" is_json=True %}
+                                    {
+                                    "title":"ULTIMATE",
+                                    "description":"Additional description explaining the product you will get with this pricing option. Do not be shy, click buy.",
+                                    "price":"$299/mo",
+                                    "features":[
+                                        {"name_":"<strong>unlimited</strong> Volume","deactivated":false},
+                                        {"name_":"<strong>24/7</strong> Customer Support","deactivated":false},
+                                        {"name_":"<strong>unlimited</strong> Users","deactivated":false},
+                                        {"name_":"<strong>unlimited</strong> Support","deactivated":false},
+                                        {"name_":"<strong>Premium Features</strong>","deactivated":false}
+                                    ],
+                                    "cta":"fe13cfd2-f440-436b-858d-1cfae9387c7e"
+                                    }
+                                {% end_module_attribute %}
+                            {% end_dnd_module %}
+                        {% end_dnd_row %}
+
+                    {% end_dnd_column %}
+                {% end_dnd_row %}
+                {% end_dnd_column %}
+            {% end_dnd_section %}
+            {# End Section DnD #}
+
+            {# Section CTA #}
+            {% dnd_section full_width=true, padding={'top': 0,'bottom': 0,'left': 0,'right': 0} %}
+                {% dnd_module module "cta" 
+                    full_width=true,
+                    width=12,
+                    path='../modules/sec-cta', 
+                    label='CTA',
+                    title='LET\'S BUILD SOMETHING TOGETHER', 
+                    cta='a8f8cbb9-043c-40f0-857f-d8e1d0d07d11', 
+                    layout='{"section_variant":"vertical"}', 
+                    style='{
+                        "background":"img_vid",
+                        "background_image":{"alt":"bg-two-people-table-unsplash","height":1080,"src":get_asset_url(\'../images/bgs/pwr-img_bg_two-people-table.jpg\'),"width":1920},
+                        "background_position":"parallax",
+                        "overlay_color":{"color":theme.colors.brand_colors.base_color_dark.color,"opacity":60},
+                        "scheme":"dark"
+                        }',
+                    animation='{"section":{"animation_type":"default","delay":50}}'
+                    %}
+                    {% module_attribute "description" %}
+                    <span>By working with POWER you can reach your goals in no-time. You will master your new POWER like a pro!</span>
+                    {% end_module_attribute %}
+                {% end_dnd_module %}
+            {% end_dnd_section %}
+            {# End Section CTA #}
+
+        {% end_dnd_area %}
+    </div>
+</main>
+{% endblock body %}
