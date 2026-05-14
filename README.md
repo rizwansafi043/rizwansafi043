@@ -1,18 +1,30 @@
-- 👋 Hi, I’m @rizwanullah
-- 👀 I’m interested in Full Stack Development and Machine Learning
-- 🌱 I’m currently learning Python.
-- 📫 ru323091@gmail.com
-   03148151505 what's app 
-   03096779850 what's app 
-   https://www.mailpoet.com/blog/email-testing-tools/
-   https://www.awesomescreenshot.com/video/14668086
-   https://mrrio.github.io/jsPDF/
+# Hi, I'm Rizwan Ullah 👋
 
-<!---
-rizwanullah313/rizwanullah313 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Full-Stack Developer | Laravel & PHP Expert | HubSpot Specialist
 
-https://mzuer.github.io/blog/2018/01/02/python-pandas-basics-exercises
+📧 ru323091@gmail.com
+📱 +92 309 677 9850
+🌍 Karachi, Pakistan
 
-https://www.machinelearningplus.com/python/101-numpy-exercises-python/
+## About Me
+Full-Stack Developer with 4+ years of experience building 
+production-grade applications for clients across UK, 
+Australia, USA, and Pakistan. Specialist in Laravel, PHP, 
+WordPress/WooCommerce, and HubSpot custom development.
+
+## Tech Stack
+**Backend:** PHP, Laravel, Python, Node.js, MySQL, Redis
+**Frontend:** JavaScript, React.js, Vue.js, jQuery, Bootstrap
+**CMS:** WordPress, WooCommerce
+**HubSpot:** Custom Workflows, CRM Cards, PDF Automation, 
+Serverless Functions
+**APIs:** Stripe, Square, SignWell, WebinarJam, Klaviyo, 
+Shopify, MS Graph API, SharePoint, Dropbox
+
+## Live Projects
+- luqmay.com — Islamic education platform (UK)
+- aimodelplace.com — AI models marketplace
+- kdnb.shiftpaycheck.com.au — Payroll calculator (Australia)
+- totalcontainers.com — Container store + Stripe (USA)
+- layerfarmestimator.com — Farm estimator (Laravel)
+- homeoplus.pk — E-pharmacy (Pakistan)
