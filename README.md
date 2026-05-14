@@ -83,9 +83,9 @@
 
 ## 📊 GitHub Stats
 
-![Rizwan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rizwanullah313&show_icons=true&theme=dark&hide_border=true)
+![Rizwan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rizwansafi043&show_icons=true&theme=dark&hide_border=true&cache_seconds=1800)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rizwanullah313&layout=compact&theme=dark&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rizwansafi043&layout=compact&theme=dark&hide_border=true&cache_seconds=1800)
 
 ---
 
