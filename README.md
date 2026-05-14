@@ -96,7 +96,7 @@ class RizwanUllah extends FullStackDeveloper
 
 | Capability | Details |
 |-----------|---------|
-| ⚙️ Custom Workflow Actions | Node.js coded actions — associations, date logic, credit checks, object lookups |
+| ⚙️ Custom Workflow Actions | Node.js coded actions -> associations, date logic, credit checks, object lookups |
 | 📄 PDF Automation | Form submission → PDF generation → SharePoint upload → attach to deals/contacts |
 | 🃏 CRM Card Apps | Address Finder deployed across Fox Removals, BAG, MacPhees |
 | ⚡ Serverless Functions | HubSpot Enterprise serverless function development |
@@ -111,14 +111,14 @@ class RizwanUllah extends FullStackDeveloper
 
 | Project | Description | Stack | Region |
 |---------|-------------|-------|--------|
-| [luqmay.com](https://luqmay.com) | Islamic education platform — 4-layer fuzzy search (SOUNDEX/Metaphone/Levenshtein), Stripe subscriptions, mobile REST API | Laravel/WP | 🇬🇧 UK |
-| [aimodelplace.com](https://aimodelplace.com) | AI models marketplace — buy/sell AI models, payments, dashboards | Laravel | 🌍 Global |
-| [kdnb.shiftpaycheck.com.au](https://kdnb.shiftpaycheck.com.au) | Payroll calculator for Keolis Downer (434 buses) — RTBU Pay Award rules, shift allowances | Laravel | 🇦🇺 AU |
-| [layerfarmestimator.com](https://layerfarmestimator.com) | Poultry farm estimator — flock comparison, investment optimization | Laravel | 🌍 Global |
-| [totalcontainers.com](https://totalcontainers.com) | Shipping container store — dynamic price calculator, admin panel, Stripe | WooCommerce | 🇺🇸 USA |
-| [soldiersagent.com](https://soldiersagent.com) | US Military real estate — VA loan guides, mortgage calculators, lead gen | WordPress | 🇺🇸 USA |
-| [homeoplus.pk](https://homeoplus.pk) | Pakistan's first online homeopathic e-pharmacy — WooCommerce, doctor consultation | WooCommerce | 🇵🇰 PK |
-| [gudorffinancial.com](https://gudorffinancial.com) | Financial advisor website — retirement planning, investment management | Twenty Over Ten | 🇺🇸 USA |
+| [luqmay.com](https://luqmay.com) | Islamic education platform -> 4-layer fuzzy search (SOUNDEX/Metaphone/Levenshtein), Stripe subscriptions, mobile REST API | Laravel/WP | 🇬🇧 UK |
+| [aimodelplace.com](https://aimodelplace.com) | AI models marketplace -> buy/sell AI models, payments, dashboards | Laravel | 🌍 Global |
+| [kdnb.shiftpaycheck.com.au](https://kdnb.shiftpaycheck.com.au) | Payroll calculator for Keolis Downer (434 buses) -> RTBU Pay Award rules, shift allowances | Laravel | 🇦🇺 AU |
+| [layerfarmestimator.com](https://layerfarmestimator.com) | Poultry farm estimator -> flock comparison, investment optimization | Laravel | 🌍 Global |
+| [totalcontainers.com](https://totalcontainers.com) | Shipping container store -> dynamic price calculator, admin panel, Stripe | WooCommerce | 🇺🇸 USA |
+| [soldiersagent.com](https://soldiersagent.com) | US Military real estate -> VA loan guides, mortgage calculators, lead gen | WordPress | 🇺🇸 USA |
+| [homeoplus.pk](https://homeoplus.pk) | Pakistan's first online homeopathic e-pharmacy -> WooCommerce, doctor consultation | WooCommerce | 🇵🇰 PK |
+| [gudorffinancial.com](https://gudorffinancial.com) | Financial advisor website -> retirement planning, investment management | Twenty Over Ten | 🇺🇸 USA |
 
 ---
 
@@ -145,15 +145,15 @@ Valid until Aug 2026
 <td>
 
 **🥇 Certificate of Appreciation**
-FESF — Deaf Reach School · Nov 2020
+FESF -> Deaf Reach School · Nov 2020
 Outstanding contribution to Pakistan Distance
-Learning Program — 1,500+ deaf students
+Learning Program -> 1,500+ deaf students
 
 </td>
 <td>
 
 **📄 IT Internship Completion**
-FESF — Bahria University · Nov 2020
+FESF -> Bahria University · Nov 2020
 Configured 1,500+ laptops & devices
 across Pakistan for deaf students
 
@@ -177,7 +177,7 @@ across Pakistan for deaf students
 
 <div align="center">
 
-> *"I don't just write code — I build solutions that solve real business problems."*
+> *"I don't just write code -> I build solutions that solve real business problems."*
 
 📧 **ru323091@gmail.com**
 📱 **+92 309 677 9850**
