@@ -180,7 +180,7 @@ across Pakistan for deaf students
 > *"I don't just write code -> I build solutions that solve real business problems."*
 
 📧 **ru323091@gmail.com**
-📱 **+92 309 677 9850**
+📱 **+92 314 8151505**
 🌍 **Available for Remote Work Worldwide**
 
 [![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rizwan-ullah313)
