@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=C8A96E&center=true&vCenter=true&width=600&lines=4%2B+Years+of+Production+Development;Laravel+%7C+PHP+%7C+WordPress+%7C+HubSpot;35%2B+HubSpot+Automation+Solutions;10%2B+Laravel+Apps+from+Scratch;UK+%7C+Australia+%7C+USA+%7C+Pakistan+Clients)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=C8A96E&center=true&vCenter=true&width=650&lines=5%2B+Years+of+Production+Development;Laravel+%7C+PHP+%7C+WordPress+%7C+HubSpot;50%2B+HubSpot+Automation+Solutions;15%2B+Laravel+%26+WordPress+Apps+Built;12%2B+HubSpot+Marketplace+Apps+Published;UK+%7C+Australia+%7C+USA+%7C+Pakistan+Clients)](https://git.io/typing-svg)
 
 <br/>
 
@@ -26,7 +26,7 @@ class RizwanUllah extends FullStackDeveloper
 {
     public string $location   = "Karachi, Pakistan 🇵🇰";
     public string $company    = "Emerald Soft";
-    public int    $experience = 4; // years
+    public int    $experience = 5; // years
 
     public array $expertise = [
         "Laravel & Core PHP",
@@ -35,6 +35,13 @@ class RizwanUllah extends FullStackDeveloper
         "REST API & Third-party Integrations",
         "PDF Generation & Automation",
         "Payment Gateways (Stripe, Square)",
+    ];
+
+    public array $achievements = [
+        "50+ HubSpot automation solutions delivered",
+        "12+ HubSpot Marketplace apps published (800+ installs)",
+        "36,000+ guest & 48,000+ reservation records synced (RMS integration)",
+        "37,000+ record CRM migration (Autotask PSA → HubSpot)",
     ];
 
     public array $clients = ["UK 🇬🇧", "Australia 🇦🇺", "USA 🇺🇸", "Pakistan 🇵🇰"];
@@ -73,6 +80,7 @@ class RizwanUllah extends FullStackDeveloper
 
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
 ![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)
+![Wix](https://img.shields.io/badge/Wix-0C6EFC?style=for-the-badge&logo=wix&logoColor=white)
 
 **Database & DevOps**
 
@@ -80,6 +88,7 @@ class RizwanUllah extends FullStackDeveloper
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 **Payments & Integrations**
 
@@ -92,16 +101,18 @@ class RizwanUllah extends FullStackDeveloper
 
 ## 🟠 HubSpot Expertise
 
-> **35+ automation solutions delivered for enterprise clients across Australia & UK**
+> **50+ automation solutions delivered for clients across the UK, Australia, USA & Pakistan**
 
 | Capability | Details |
 |-----------|---------|
-| ⚙️ Custom Workflow Actions | Node.js coded actions -> associations, date logic, credit checks, object lookups |
+| ⚙️ Custom Workflow Actions | Node.js coded actions → associations, date logic, credit checks, object lookups |
 | 📄 PDF Automation | Form submission → PDF generation → SharePoint upload → attach to deals/contacts |
 | 🃏 CRM Card Apps | Address Finder deployed across Fox Removals, BAG, MacPhees |
 | ⚡ Serverless Functions | HubSpot Enterprise serverless function development |
-| 🔗 Integrations | WebinarJam, SignWell, Klaviyo, Shopify, Dropbox, MS Graph API |
-| 🗄️ Data Migration | Autotask → HubSpot: 3,000 companies + 15,000 contacts + 19,000 deals |
+| 🔗 Integrations | WebinarJam, SignWell, Klaviyo, Shopify, Dropbox, MS Graph API, Humanitix |
+| 🔄 PMS / RMS Sync | The Lodge: custom Contact & Reservation objects (31 properties), bidirectional sync — 36,000+ guests & 48,000+ reservations |
+| 🗄️ Data Migration | Autotask PSA → HubSpot: 3,000 companies + 15,000 contacts + 19,000 deals (37,000+ records) |
+| 🛒 Marketplace Apps | 12+ published apps, 800+ installs — Create Notes in Workflows, Tradiate Sync with ServiceM8, Calculations, QuickDraw, Address Finder, Saular |
 | 🏗️ Custom Objects | Pricing objects, Products API, frontend data display |
 | 📋 HubDB & Webhooks | Dynamic pages, webhook handling, Lists API v3 migration |
 
@@ -111,14 +122,14 @@ class RizwanUllah extends FullStackDeveloper
 
 | Project | Description | Stack | Region |
 |---------|-------------|-------|--------|
-| [luqmay.com](https://luqmay.com) | Islamic education platform -> 4-layer fuzzy search (SOUNDEX/Metaphone/Levenshtein), Stripe subscriptions, mobile REST API | Laravel/WP | 🇬🇧 UK |
-| [aimodelplace.com](https://aimodelplace.com) | AI models marketplace -> buy/sell AI models, payments, dashboards | Laravel | 🌍 Global |
-| [kdnb.shiftpaycheck.com.au](https://kdnb.shiftpaycheck.com.au) | Payroll calculator for Keolis Downer (434 buses) -> RTBU Pay Award rules, shift allowances | Laravel | 🇦🇺 AU |
-| [layerfarmestimator.com](https://layerfarmestimator.com) | Poultry farm estimator -> flock comparison, investment optimization | Laravel | 🌍 Global |
-| [totalcontainers.com](https://totalcontainers.com) | Shipping container store -> dynamic price calculator, admin panel, Stripe | WooCommerce | 🇺🇸 USA |
-| [soldiersagent.com](https://soldiersagent.com) | US Military real estate -> VA loan guides, mortgage calculators, lead gen | WordPress | 🇺🇸 USA |
-| [homeoplus.pk](https://homeoplus.pk) | Pakistan's first online homeopathic e-pharmacy -> WooCommerce, doctor consultation | WooCommerce | 🇵🇰 PK |
-| [gudorffinancial.com](https://gudorffinancial.com) | Financial advisor website -> retirement planning, investment management | Twenty Over Ten | 🇺🇸 USA |
+| [luqmay.com](https://luqmay.com) | Islamic education platform → 4-layer fuzzy search (SOUNDEX/Metaphone/Levenshtein), Stripe subscriptions, mobile REST API | Laravel/WP | 🇬🇧 UK |
+| [aimodelplace.com](https://aimodelplace.com) | AI models marketplace → buy/sell AI models, payments, dashboards | Laravel | 🌍 Global |
+| [kdnb.shiftpaycheck.com.au](https://kdnb.shiftpaycheck.com.au) | Payroll calculator for a 434-bus fleet → RTBU Pay Award rules, shift allowances | Laravel | 🇦🇺 AU |
+| [layerfarmestimator.com](https://layerfarmestimator.com) | Poultry farm estimator → flock comparison, investment optimization | Laravel | 🌍 Global |
+| [totalcontainers.com](https://totalcontainers.com) | Shipping container store → dynamic price calculator, admin panel, Stripe | WooCommerce | 🇺🇸 USA |
+| [soldiersagent.com](https://soldiersagent.com) | US Military real estate → VA loan guides, mortgage calculators, lead gen | WordPress | 🇺🇸 USA |
+| [homeoplus.pk](https://homeoplus.pk) | Pakistan's first online homeopathic e-pharmacy → WooCommerce, doctor consultation | WooCommerce | 🇵🇰 PK |
+| [gudorffinancial.com](https://gudorffinancial.com) | Financial advisor website → retirement planning, investment management | Twenty Over Ten | 🇺🇸 USA |
 
 ---
 
@@ -145,17 +156,16 @@ Valid until Aug 2026
 <td>
 
 **🥇 Certificate of Appreciation**
-FESF -> Deaf Reach School · Nov 2020
-Outstanding contribution to Pakistan Distance
-Learning Program -> 1,500+ deaf students
+FESF – Deaf Reach School · Nov 2020
+Outstanding contribution to the Pakistan
+Distance Learning Program for 1,500+ deaf students
 
 </td>
 <td>
 
-**📄 IT Internship Completion**
-FESF -> Bahria University · Nov 2020
-Configured 1,500+ laptops & devices
-across Pakistan for deaf students
+**🎓 B.S. Information Technology**
+Bahria University, Karachi Campus
+2018 – 2021
 
 </td>
 </tr>
@@ -177,7 +187,7 @@ across Pakistan for deaf students
 
 <div align="center">
 
-> *"I don't just write code -> I build solutions that solve real business problems."*
+> *"I don't just write code → I build solutions that solve real business problems."*
 
 📧 **ru323091@gmail.com**
 📱 **+92 314 8151505**
