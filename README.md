@@ -13,6 +13,14 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rizwansafi043)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=firefox&logoColor=white)](https://aimodelplace.com)
 
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=rizwansafi043&style=for-the-badge&color=c8a96e&label=PROFILE+VIEWS)
+
+<br/>
+
+*Turning complex business requirements into production-ready HubSpot & Laravel systems — trusted by teams across 4 countries.*
+
 </div>
 
 ---
@@ -118,6 +126,20 @@ class RizwanUllah extends FullStackDeveloper
 
 ---
 
+## 🔥 Recent Work — The Lodge (RMS ↔ HubSpot Integration)
+
+<div align="center">
+
+| Guests Synced | Reservations Synced | Custom Properties | Sync Mode |
+|:---:|:---:|:---:|:---:|
+| **36,000+** | **48,000+** | **31** | Real-time webhooks + nightly reconciliation |
+
+</div>
+
+Architected a bidirectional integration between a hospitality RMS and HubSpot for a 2-property group — built dedicated **Contact** and **Reservation** custom objects, association labels for Booker / Occupant / Primary Guest roles, deduplication logic keyed on RMS guest and reservation IDs, and field-level conflict-resolution rules so each system stays the source of truth for the data it owns.
+
+---
+
 ## 🌐 Live Projects
 
 | Project | Description | Stack | Region |
@@ -177,7 +199,14 @@ Bahria University, Karachi Campus
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=rizwansafi043&show_icons=true&count_private=true&theme=tokyonight&hide_border=true" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizwansafi043&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rizwansafi043&theme=tokyonight&hide_border=true" height="165"/>
+
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rizwansafi043&theme=react-dark&hide_border=true&area=true)
+
+<img src="https://github-profile-trophy.vercel.app/?username=rizwansafi043&theme=tokyonight&no-frame=true&row=1&column=7" />
 
 </div>
 
