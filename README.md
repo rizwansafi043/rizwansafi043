@@ -49,8 +49,10 @@ class RizwanUllah extends FullStackDeveloper
     public array $achievements = [
         "50+ HubSpot automation solutions delivered",
         "12+ HubSpot Marketplace apps published (800+ installs)",
+        "10-app HubSpot Marketplace suite built on one shared OAuth/billing platform",
         "36,000+ guest & 48,000+ reservation records synced (RMS integration)",
         "37,000+ record CRM migration (Autotask PSA to HubSpot)",
+        "Bidirectional ERP/field-service syncs: Cin7, ServiceM8, Fergus, Pylon",
     ];
 
     public array $clients = ["UK 🇬🇧", "Australia 🇦🇺", "USA 🇺🇸", "Pakistan 🇵🇰"];
@@ -90,6 +92,15 @@ class RizwanUllah extends FullStackDeveloper
 ![Amazon AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
 
+**ERP, Field-Service & Vertical SaaS Integrations**
+
+![Cin7](https://img.shields.io/badge/Cin7%20%2F%20DEAR-1a1a2e?style=for-the-badge&logo=databricks&logoColor=c8a96e)
+![ServiceM8](https://img.shields.io/badge/ServiceM8-1a1a2e?style=for-the-badge&logo=todoist&logoColor=c8a96e)
+![Fergus](https://img.shields.io/badge/Fergus-1a1a2e?style=for-the-badge&logo=trello&logoColor=c8a96e)
+![Pylon](https://img.shields.io/badge/Pylon%20Solar%20CPQ-1a1a2e?style=for-the-badge&logo=sunrise&logoColor=c8a96e)
+![Klaviyo](https://img.shields.io/badge/Klaviyo-1a1a2e?style=for-the-badge&logo=klaviyo&logoColor=c8a96e)
+![Bluebeam](https://img.shields.io/badge/Bluebeam%20Studio-1a1a2e?style=for-the-badge&logo=adobeacrobatreader&logoColor=c8a96e)
+
 </div>
 
 ---
@@ -110,6 +121,27 @@ class RizwanUllah extends FullStackDeveloper
 | 🛒 Marketplace Apps | 12+ published apps, 800+ installs, including Create Notes in Workflows, Tradiate Sync with ServiceM8, Calculations, QuickDraw, Address Finder, Saular |
 | 🏗️ Custom Objects | Pricing objects, Products API, frontend data display |
 | 📋 HubDB & Webhooks | Dynamic pages, webhook handling, Lists API v3 migration |
+
+---
+
+## 🧩 HubSpot Marketplace App Suite
+
+<div align="center">
+
+*A family of Marketplace apps built on one shared OAuth install flow, billing/subscription layer, and central dashboard — each app pairing HubSpot with a different third-party platform.*
+
+</div>
+
+| App | Integration | What it does |
+|-----|-------------|---------------|
+| **Tradiate Lite** | ServiceM8 | Full bidirectional Company/Contact sync, checkpointed cron + webhook hybrid, content-hash idempotency |
+| **CINChronize** | Cin7 (DEAR Systems) | Inventory/pricing/stock sync into HubSpot Products, quote-to-sales-order automation |
+| **Credit Command** | Pylon + CommandCredit | Solar CPQ proposal sync (multi-design deals, line items) + in-CRM business credit/identity lookup |
+| **Fergus** | Fergus | Bidirectional Company/Contact sync with a trade job-management platform, PAT-based auth |
+| **Sequences** | HubSpot Automation v4 | Owner-aware sequence enrollment — sends from whoever currently owns the contact |
+| **Quick Draw / Address Finder / Calculations / HubPDF** | HubSpot native | Custom CRM cards & workflow actions for address lookup, calculations, and PDF generation |
+
+*(Each app is documented in full — architecture, sync design, and skills demonstrated — under `data/*-hubspot.md`.)*
 
 ---
 
