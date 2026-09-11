@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=Rizwan%20Ullah&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Laravel%20Expert%20%7C%20HubSpot%20Specialist&descAlignY=55&descSize=18&descColor=c8a96e" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=200&section=header&text=Rizwan%20Ullah&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20HubSpot%20Marketplace%20Builder%20%7C%20Laravel%20Expert&descAlignY=55&descSize=18&descColor=c8a96e" width="100%"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=C8A96E&center=true&vCenter=true&width=650&lines=5%2B+Years+of+Production+Development;Laravel+%7C+PHP+%7C+WordPress+%7C+HubSpot;50%2B+HubSpot+Automation+Solutions;15%2B+Laravel+%26+WordPress+Apps+Built;12%2B+HubSpot+Marketplace+Apps+Published;UK+%7C+Australia+%7C+USA+%7C+Pakistan+Clients)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=C8A96E&center=true&vCenter=true&width=750&lines=5%2B+Years+of+Production+Development;Laravel+%7C+PHP+%7C+WordPress+%7C+HubSpot;50%2B+HubSpot+Automation+Solutions+Delivered;12%2B+HubSpot+Marketplace+Apps+Published;10-App+SaaS+Suite+%E2%80%94+One+Shared+Platform;Integrating+ERPs%2C+Payments%2C+Signatures+%26+PDFs;UK+%7C+Australia+%7C+USA+%7C+Pakistan+Clients)](https://git.io/typing-svg)
 
 <br/>
 
@@ -20,7 +20,7 @@
 
 <br/>
 
-*Turning complex business requirements into production-ready HubSpot and Laravel systems, trusted by teams across 4 countries.*
+*Turning complex business requirements into production-ready HubSpot and Laravel systems — trusted by teams across 4 countries to build the integrations their business actually runs on.*
 
 </div>
 
@@ -38,12 +38,14 @@ class RizwanUllah extends FullStackDeveloper
     public int    $experience = 5; // years
 
     public array $expertise = [
+        "HubSpot Marketplace App Development (native + React UI Extensions)",
         "Laravel & Core PHP",
-        "HubSpot Custom Development",
         "WordPress & WooCommerce",
-        "REST API & Third-party Integrations",
-        "PDF Generation & Automation",
-        "Payment Gateways (Stripe, Square)",
+        "Bidirectional ERP / Field-Service / CPQ Integrations",
+        "REST API Architecture & Third-Party Integrations",
+        "PDF Generation & Document Automation",
+        "Payment Gateways & E-Signature Workflows",
+        "OAuth2, Webhooks & Secure Credential Handling",
     ];
 
     public array $achievements = [
@@ -52,12 +54,13 @@ class RizwanUllah extends FullStackDeveloper
         "10-app HubSpot Marketplace suite built on one shared OAuth/billing platform",
         "36,000+ guest & 48,000+ reservation records synced (RMS integration)",
         "37,000+ record CRM migration (Autotask PSA to HubSpot)",
-        "Bidirectional ERP/field-service syncs: Cin7, ServiceM8, Fergus, Pylon",
+        "Bidirectional syncs shipped for Cin7, ServiceM8, Fergus & Pylon",
+        "End-to-end deal workflows combining e-signature, ID verification & payments",
     ];
 
     public array $clients = ["UK 🇬🇧", "Australia 🇦🇺", "USA 🇺🇸", "Pakistan 🇵🇰"];
 
-    public string $currentFocus = "HubSpot Automation + Laravel SaaS Products";
+    public string $currentFocus = "HubSpot Marketplace Products + Laravel SaaS";
 
     public function contact(): string
     {
@@ -78,28 +81,63 @@ class RizwanUllah extends FullStackDeveloper
 
 <div align="center">
 
-**Payments & Commerce Integrations**
+**HubSpot Platform**
+
+![HubSpot](https://img.shields.io/badge/HubSpot-FF7A59?style=for-the-badge&logo=hubspot&logoColor=white)
+![OAuth2](https://img.shields.io/badge/OAuth2-1a1a2e?style=for-the-badge&logo=auth0&logoColor=c8a96e)
+![Webhooks](https://img.shields.io/badge/Webhooks%20%2B%20HMAC-1a1a2e?style=for-the-badge&logo=fastapi&logoColor=c8a96e)
+![React UI Extensions](https://img.shields.io/badge/React%20UI%20Extensions-1a1a2e?style=for-the-badge&logo=react&logoColor=c8a96e)
+![Custom Objects](https://img.shields.io/badge/Custom%20CRM%20Objects-1a1a2e?style=for-the-badge&logo=databricks&logoColor=c8a96e)
+![HubDB](https://img.shields.io/badge/HubDB-1a1a2e?style=for-the-badge&logo=airtable&logoColor=c8a96e)
+
+**Payments, Commerce & E-Signature**
 
 ![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white)
 ![Square](https://img.shields.io/badge/Square-3E4348?style=for-the-badge&logo=square&logoColor=white)
+![NMI](https://img.shields.io/badge/NMI%20Payment%20Gateway-1a1a2e?style=for-the-badge&logo=creditkarma&logoColor=c8a96e)
 ![Shopify](https://img.shields.io/badge/Shopify-96BF48?style=for-the-badge&logo=Shopify&logoColor=white)
 ![WooCommerce](https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)
-
-**Platforms & Cloud**
-
-![HubSpot](https://img.shields.io/badge/HubSpot-FF7A59?style=for-the-badge&logo=hubspot&logoColor=white)
-![Wix](https://img.shields.io/badge/Wix-0C6EFC?style=for-the-badge&logo=wix&logoColor=white)
-![Amazon AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
+![SignWell](https://img.shields.io/badge/SignWell%20E--Signature-1a1a2e?style=for-the-badge&logo=docusign&logoColor=c8a96e)
+![Persona](https://img.shields.io/badge/Persona%20ID%20Verification-1a1a2e?style=for-the-badge&logo=okta&logoColor=c8a96e)
 
 **ERP, Field-Service & Vertical SaaS Integrations**
 
-![Cin7](https://img.shields.io/badge/Cin7%20%2F%20DEAR-1a1a2e?style=for-the-badge&logo=databricks&logoColor=c8a96e)
+![Cin7](https://img.shields.io/badge/Cin7%20%2F%20DEAR%20Systems-1a1a2e?style=for-the-badge&logo=databricks&logoColor=c8a96e)
 ![ServiceM8](https://img.shields.io/badge/ServiceM8-1a1a2e?style=for-the-badge&logo=todoist&logoColor=c8a96e)
 ![Fergus](https://img.shields.io/badge/Fergus-1a1a2e?style=for-the-badge&logo=trello&logoColor=c8a96e)
 ![Pylon](https://img.shields.io/badge/Pylon%20Solar%20CPQ-1a1a2e?style=for-the-badge&logo=sunrise&logoColor=c8a96e)
-![Klaviyo](https://img.shields.io/badge/Klaviyo-1a1a2e?style=for-the-badge&logo=klaviyo&logoColor=c8a96e)
+![OpenSolar](https://img.shields.io/badge/OpenSolar-1a1a2e?style=for-the-badge&logo=sunrise&logoColor=c8a96e)
+![Autotask](https://img.shields.io/badge/Autotask%20PSA-1a1a2e?style=for-the-badge&logo=datadog&logoColor=c8a96e)
+![RMS Cloud](https://img.shields.io/badge/RMS%20Cloud%20(PMS)-1a1a2e?style=for-the-badge&logo=bookstack&logoColor=c8a96e)
 ![Bluebeam](https://img.shields.io/badge/Bluebeam%20Studio-1a1a2e?style=for-the-badge&logo=adobeacrobatreader&logoColor=c8a96e)
+
+**Marketing, Comms & Productivity APIs**
+
+![Klaviyo](https://img.shields.io/badge/Klaviyo-1a1a2e?style=for-the-badge&logo=klaviyo&logoColor=c8a96e)
+![Mailjet](https://img.shields.io/badge/Mailjet-1a1a2e?style=for-the-badge&logo=mailtrap&logoColor=c8a96e)
+![WebinarJam](https://img.shields.io/badge/WebinarJam-1a1a2e?style=for-the-badge&logo=zoom&logoColor=c8a96e)
+![Humanitix](https://img.shields.io/badge/Humanitix-1a1a2e?style=for-the-badge&logo=eventbrite&logoColor=c8a96e)
+![Google Places](https://img.shields.io/badge/Google%20Places%20%2F%20Geocoding-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Google Drive](https://img.shields.io/badge/Google%20Drive%20API-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google%20Sheets%20API-0F9D58?style=for-the-badge&logo=googlesheets&logoColor=white)
+![Dropbox](https://img.shields.io/badge/Dropbox%20API-0061FF?style=for-the-badge&logo=dropbox&logoColor=white)
+![Microsoft Graph](https://img.shields.io/badge/Microsoft%20Graph%20%2F%20SharePoint-0078D4?style=for-the-badge&logo=microsoftsharepoint&logoColor=white)
+
+**Documents, PDFs & Files**
+
+![mPDF](https://img.shields.io/badge/mPDF-1a1a2e?style=for-the-badge&logo=adobeacrobatreader&logoColor=c8a96e)
+![FPDI/FPDF](https://img.shields.io/badge/FPDI%20%2F%20FPDF-1a1a2e?style=for-the-badge&logo=adobeacrobatreader&logoColor=c8a96e)
+![PhpSpreadsheet](https://img.shields.io/badge/PhpSpreadsheet-1a1a2e?style=for-the-badge&logo=microsoftexcel&logoColor=c8a96e)
+![ImageMagick](https://img.shields.io/badge/ImageMagick%20%2B%20libheif-1a1a2e?style=for-the-badge&logo=imagemagick&logoColor=c8a96e)
+![ConvertAPI](https://img.shields.io/badge/ConvertAPI-1a1a2e?style=for-the-badge&logo=files&logoColor=c8a96e)
+
+**Platforms, Security & Cloud**
+
+![Wix](https://img.shields.io/badge/Wix-0C6EFC?style=for-the-badge&logo=wix&logoColor=white)
+![Amazon AWS](https://img.shields.io/badge/AWS%20S3%20(SigV4)-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![cPanel](https://img.shields.io/badge/cPanel-FF6C2C?style=for-the-badge&logo=cpanel&logoColor=white)
+![AES Encryption](https://img.shields.io/badge/AES--256%20Encrypted%20Credentials-1a1a2e?style=for-the-badge&logo=letsencrypt&logoColor=c8a96e)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 </div>
 
@@ -111,24 +149,24 @@ class RizwanUllah extends FullStackDeveloper
 
 | Capability | Details |
 |-----------|---------|
-| ⚙️ Custom Workflow Actions | Node.js coded actions → associations, date logic, credit checks, object lookups |
-| 📄 PDF Automation | Form submission → PDF generation → SharePoint upload → attach to deals/contacts |
-| 🃏 CRM Card Apps | Address Finder deployed across Fox Removals, BAG, MacPhees |
-| ⚡ Serverless Functions | HubSpot Enterprise serverless function development |
-| 🔗 Integrations | WebinarJam, SignWell, Klaviyo, Shopify, Dropbox, MS Graph API, Humanitix |
-| 🔄 PMS / RMS Sync | The Lodge: custom Contact & Reservation objects (31 properties) with bidirectional sync, 36,000+ guests and 48,000+ reservations |
+| ⚙️ Custom Workflow Actions | Node/PHP-coded actions → associations, date logic, credit checks, object lookups, owner-aware sequence enrollment |
+| 📄 PDF & Document Automation | Form submission → branded PDF generation → SharePoint/File Manager upload → auto-attach to deals/contacts/tickets |
+| 🃏 CRM Card Apps | Legacy IFRAME cards and modern React UI Extensions — Address Finder, Bluebeam sync, business credit lookup |
+| ⚡ Serverless & Webhook Functions | HubSpot Enterprise serverless functions, HMAC-verified webhook subscriptions with replay protection |
+| 🔗 Third-Party Integrations | WebinarJam, SignWell, Klaviyo, Shopify, Dropbox, MS Graph, Humanitix, Cin7, ServiceM8, Fergus, Pylon, Bluebeam |
+| 🔄 PMS / RMS Sync | The Lodge: custom Contact & Reservation objects (31 properties), bidirectional sync, 36,000+ guests and 48,000+ reservations |
 | 🗄️ Data Migration | Autotask PSA → HubSpot: 3,000 companies, 15,000 contacts, 19,000 deals (37,000+ records) |
-| 🛒 Marketplace Apps | 12+ published apps, 800+ installs, including Create Notes in Workflows, Tradiate Sync with ServiceM8, Calculations, QuickDraw, Address Finder, Saular |
-| 🏗️ Custom Objects | Pricing objects, Products API, frontend data display |
-| 📋 HubDB & Webhooks | Dynamic pages, webhook handling, Lists API v3 migration |
+| 🛒 Marketplace Apps | 12+ published apps, 800+ installs — a 10-app suite sharing one OAuth/billing/dashboard platform (see below) |
+| 🏗️ Custom Objects | Pricing objects, Reservation objects, Products API, custom-object-driven frontend data display |
+| 📋 HubDB, Properties & Associations | Dynamic pages, programmatic property/property-group provisioning, association labels, Lists API v3 migration |
 
 ---
 
-## 🧩 HubSpot Marketplace App Suite
+## 🧩 HubSpot Marketplace App Suite ("HubDo")
 
 <div align="center">
 
-*A family of Marketplace apps built on one shared OAuth install flow, billing/subscription layer, and central dashboard — each app pairing HubSpot with a different third-party platform.*
+*A family of Marketplace apps built on one shared OAuth install flow, billing/subscription layer, and central dashboard — each app pairing HubSpot with a different third-party platform, evolving from legacy IFRAME CRM cards to modern React UI Extensions.*
 
 </div>
 
@@ -138,24 +176,35 @@ class RizwanUllah extends FullStackDeveloper
 | **CINChronize** | Cin7 (DEAR Systems) | Inventory/pricing/stock sync into HubSpot Products, quote-to-sales-order automation |
 | **Credit Command** | Pylon + CommandCredit | Solar CPQ proposal sync (multi-design deals, line items) + in-CRM business credit/identity lookup |
 | **Fergus** | Fergus | Bidirectional Company/Contact sync with a trade job-management platform, PAT-based auth |
+| **Bluebeam Sync** | Bluebeam Studio | Construction PDF-collaboration sync with real AWS S3 SigV4 presigned-upload handling |
 | **Sequences** | HubSpot Automation v4 | Owner-aware sequence enrollment — sends from whoever currently owns the contact |
-| **Quick Draw / Address Finder / Calculations / HubPDF** | HubSpot native | Custom CRM cards & workflow actions for address lookup, calculations, and PDF generation |
+| **Quick Draw** | HubSpot native + React | Custom object properties, JWT-secured App Card UI extension |
+| **Address Finder** | Google Places/Geocoding | Address autocomplete CRM card, deployed across multiple client portals |
+| **Calculations** | HubSpot native | Custom workflow-action calculation engine |
+| **HubPDF** | HubSpot native | Branded PDF generation from Contacts/Companies/Tickets data |
 
 *(Each app is documented in full — architecture, sync design, and skills demonstrated — under `data/*-hubspot.md`.)*
 
 ---
 
-## 🔥 Recent Work: The Lodge (RMS ↔ HubSpot Integration)
+## 🔥 Featured Case Studies
 
 <div align="center">
 
-| Guests Synced | Reservations Synced | Custom Properties | Sync Mode |
-|:---:|:---:|:---:|:---:|
-| **36,000+** | **48,000+** | **31** | Real-time webhooks + nightly reconciliation |
+| Project | Domain | Scale |
+|:---|:---|:---:|
+| **The Lodge** — RMS ↔ HubSpot | Hospitality PMS sync | 36,000+ guests · 48,000+ reservations · 31 custom properties |
+| **Green Light Worldwide** — Autotask → HubSpot | PSA-to-CRM data migration | 3,000 companies · 15,000 contacts · 19,000 deals |
+| **John Orlando** — Full-stack deal workflow | E-signature + ID verification + payments | SignWell, Persona, NMI, Dropbox & Google Sheets/Drive in one flow |
+| **CINChronize / Brightgreen** — Cin7 ↔ HubSpot | Live ERP inventory sync | Multi-tier pricing across 10 configurable tiers, months of iterative delivery |
 
 </div>
 
-Architected a bidirectional integration between a hospitality RMS and HubSpot for a 2-property group. Built dedicated **Contact** and **Reservation** custom objects, association labels for Booker / Occupant / Primary Guest roles, deduplication logic keyed on RMS guest and reservation IDs, and field-level conflict-resolution rules so each system stays the source of truth for the data it owns.
+**The Lodge (RMS ↔ HubSpot):** Architected a bidirectional integration between a hospitality RMS and HubSpot for a 2-property group. Built dedicated **Contact** and **Reservation** custom objects, association labels for Booker / Occupant / Primary Guest roles, deduplication logic keyed on RMS guest and reservation IDs, and field-level conflict-resolution rules so each system stays the source of truth for the data it owns.
+
+**Green Light Worldwide (Autotask → HubSpot):** Delivered a full PSA-to-CRM migration tool — a shared codebase powering both a browser dashboard and a CLI runner — mapping and moving Companies, Contacts, and Deals with Associations preserved, at real production scale.
+
+**John Orlando:** A complete deal-closing workflow stitched from independent best-of-breed services — SignWell for e-signatures, Persona for identity verification, NMI for payment capture, and Dropbox/Google Sheets/Google Drive for document handling — all orchestrated against the HubSpot CRM as the system of record.
 
 ---
 
@@ -164,7 +213,7 @@ Architected a bidirectional integration between a hospitality RMS and HubSpot fo
 | Project | Description | Stack | Region |
 |---------|-------------|-------|--------|
 | [luqmay.com](https://luqmay.com) | Islamic education platform → 4-layer fuzzy search (SOUNDEX/Metaphone/Levenshtein), Stripe subscriptions, mobile REST API | Laravel/WP | 🇬🇧 UK |
-| [aimodelplace.com](https://aimodelplace.com) | AI models marketplace → buy/sell AI models, payments, dashboards | Laravel | 🌍 Global |
+| [aimodelplace.com](https://aimodelplace.com) | AI models marketplace → buy/sell AI models, payments, dashboards, WebSocket-powered features | Laravel | 🌍 Global |
 | [kdnb.shiftpaycheck.com.au](https://kdnb.shiftpaycheck.com.au) | Payroll calculator for a 434-bus fleet → RTBU Pay Award rules, shift allowances | Laravel | 🇦🇺 AU |
 | [layerfarmestimator.com](https://layerfarmestimator.com) | Poultry farm estimator → flock comparison, investment optimization | Laravel | 🌍 Global |
 | [totalcontainers.com](https://totalcontainers.com) | Shipping container store → dynamic price calculator, admin panel, Stripe | WooCommerce | 🇺🇸 USA |
